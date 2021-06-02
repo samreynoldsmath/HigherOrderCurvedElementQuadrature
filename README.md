@@ -6,7 +6,7 @@ The quadrature approximates the integrals \int_K vw dx and \int_K (\nabla v)(\na
 
 A demonstration of the quadrature is provided in main.m. Please see the comments in main.m on how to use the code.
 
-We ultimately plan to use this quadrature method to implement an efficient, high-order FEM on curvilinear meshes in 2-d domains. Our previous work demonstrated that the lowest order case is feasible, see "Trefftz Finite Elements on Curvilinear Polygons" by A.Anand, J. Ovall, S. Reynolds, S. Weisser, SIAM J. of Sci. Comp. (2018). 
+We ultimately plan to use this quadrature method to implement an efficient, high-order FEM on curvilinear meshes in 2-d domains. Our previous work demonstrated that the lowest order case is feasible, see "Trefftz Finite Elements on Curvilinear Polygons" by A. Anand, J. Ovall, S. Reynolds, S. Weisser, SIAM J. of Sci. Comp. (2018). 
 
 Any future updates and additional demos will be posted to our GitHub repository: 
 https://github.com/samreynoldsmath/HigherOrderCurvedElementQuadrature
