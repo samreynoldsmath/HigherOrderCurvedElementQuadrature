@@ -96,7 +96,7 @@
     Supported options are:
         'square'    (the unit square (0,1) x (0,1))
         'circle'    (the unit circle, a bigon)
-        'pacman'    (the unit circle with pizza sliced removed)
+        'pacman'    (the unit circle with pizza slice removed)
         'shuriken'  (a perturbation of the unit square with sinusoidal edges)
         'jigsaw'    (a puzzle piece)
     Alternatively, the user may constuct their own domain. See the comments
