@@ -12,7 +12,10 @@ This repository contains the MATLAB code used for the numerical examples in the 
 Jeffrey S. Ovall, and Samuel E. Reynolds, "Quadrature for Implicitly-defined Finite Element Functions on Curvilinear Polygons," Computers & Mathematics with Applications (2022), Vol. 107 (1), pp. 1–16.
 [https://doi.org/10.1016/j.camwa.2021.12.003](https://doi.org/10.1016/j.camwa.2021.12.003)
 
-The quadrature approximates the integrals $\int_K v\,w\,dx$ and $\int_K \nabla v\cdot\nabla w\,dx$, where $K \subset \mathbb{R}^2$ is a curvilinear polygon and $v,w$ have polynomial Laplacians and have continuous Dirichlet traces on the boundary $\partial K$, such that the restriction to one edge is the trace of a polynomial. In our paper, we show that these volumetric integrals can be reduced to boundary integrals, and provide a corresponding quadrature, which is implemented here.
+The quadrature approximates the integrals
+$\int_K v \, w \; dx$ and
+$\int_K \nabla v \cdot \nabla w \; dx$,
+where $K \subset \mathbb{R}^2$ is a curvilinear polygon and $v,w$ have polynomial Laplacians and have continuous Dirichlet traces on the boundary $\partial K$, such that the restriction to one edge is the trace of a polynomial. In our paper, we show that these volumetric integrals can be reduced to boundary integrals, and provide a corresponding quadrature, which is implemented here.
 
 A demonstration of the quadrature is provided in [main.m](main.m). Please see the comments in main.m on how to use the code.
 
